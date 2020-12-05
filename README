@@ -1,0 +1,20 @@
+# py-tgadmin
+## simple telegram admin bot writen on python
+
+## Commands
+[admin] = require admin rights
+[reply] = require command to be reply
+* /ban	[admin] [reply] - ban user forever
+* /mute [admin] [reply] - restrict user to send messages
+
+## Installation
+```
+setup venv 
+pip3 install -r requirements.txt
+set vars:
+* TG_API_KEY=[your api key from @botfather]
+run module.py
+```
+
+## Contribution
+any contribution welcome
