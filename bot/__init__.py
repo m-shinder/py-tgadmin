@@ -1,5 +1,6 @@
 import telebot
+import os
 
-tgbot = telebot.TeleBot("1142421853:AAGFVKWpitwMZXF8k4anDobsZl656kGKrnw");
+tgbot = telebot.TeleBot(os.environ["TG_API_KEY"]);
 
 from bot.command_handler import *
